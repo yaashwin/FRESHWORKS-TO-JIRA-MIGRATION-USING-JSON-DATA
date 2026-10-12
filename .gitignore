@@ -1,7 +1,55 @@
+# Python cache
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Migration data
 FD_data/
 FD_logs/
 links_summary/
 transfer_summary/
+
+# Test-generated data
 test_refactored_shared_pool/FD_data/
 test_refactored_shared_pool/__pycache__/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Excel temporary lock files
+.~lock.*#
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*~
+
+# Logs
+*.log
+
+# ZIP archives
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Test and build output
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
