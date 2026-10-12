@@ -1,0 +1,7 @@
+__pycache__/
+FD_data/
+FD_logs/
+links_summary/
+transfer_summary/
+test_refactored_shared_pool/FD_data/
+test_refactored_shared_pool/__pycache__/
